@@ -1,6 +1,6 @@
 import { getMeals } from "@/lib/meals";
 import MealItem from "./MealItem";
-import classes from "./MealsGrid.Module.css";
+import classes from "./MealsGrid.module.css";
 export default async function MealsGrid() {
   const meals = await getMeals();
   return (

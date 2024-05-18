@@ -22,6 +22,12 @@ const MainHeader = () => {
             <li>
               <NavLink href="/community">community</NavLink>
             </li>
+            <li>
+              <NavLink href="/user/signin">Signin</NavLink>
+            </li>
+            <li>
+              <NavLink href="/user/signup">Signup</NavLink>
+            </li>
           </ul>
         </nav>
       </header>
